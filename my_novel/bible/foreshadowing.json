@@ -1,0 +1,92 @@
+{
+  "entries": [
+    {
+      "id": "fs_001",
+      "planted_in": "",
+      "description": "暗金残章触碰时出现的银发女子幻象——她是谁？与残章有何关联？",
+      "intended_payoff": "scene_003",
+      "actual_payoff": "scene_003",
+      "status": "paid_off"
+    },
+    {
+      "id": "fs_002",
+      "planted_in": "",
+      "description": "苏隐被废修为前曾是太虚宗天才弟子——具体发生了什么？",
+      "intended_payoff": "scene_005",
+      "actual_payoff": "scene_005",
+      "status": "paid_off"
+    },
+    {
+      "id": "fs_003",
+      "planted_in": "",
+      "description": "追兵中有人提到'盯了你三天'——谁派来的？和暗金残章有何关系？",
+      "intended_payoff": "scene_006",
+      "actual_payoff": "scene_015",
+      "status": "paid_off"
+    },
+    {
+      "id": "fs_004",
+      "planted_in": "",
+      "description": "青璃自称往生章的创造者——她活了至少三百年，真实身份是什么？",
+      "intended_payoff": "scene_016",
+      "actual_payoff": "scene_014",
+      "status": "paid_off"
+    },
+    {
+      "id": "fs_005",
+      "planted_in": "",
+      "description": "墨渊背叛时的眼泪——他并非毫无感情",
+      "intended_payoff": "scene_022",
+      "actual_payoff": "scene_009",
+      "status": "paid_off"
+    },
+    {
+      "id": "fs_006",
+      "planted_in": "",
+      "description": "悬赏令是归墟发出——墨渊为什么要活捉苏隐？",
+      "intended_payoff": "scene_012",
+      "actual_payoff": "scene_016",
+      "status": "paid_off"
+    },
+    {
+      "id": "fs_007",
+      "planted_in": "",
+      "description": "青璃是天道意识的碎片——她是'旧天道'本身",
+      "intended_payoff": "scene_016",
+      "actual_payoff": "scene_012",
+      "status": "paid_off"
+    },
+    {
+      "id": "fs_008",
+      "planted_in": "",
+      "description": "太虚宗战歌'天道崩兮归无处'与青璃的关系",
+      "intended_payoff": "scene_036",
+      "actual_payoff": "scene_018",
+      "status": "paid_off"
+    },
+    {
+      "id": "fs_009",
+      "planted_in": "",
+      "description": "回天章取走的代价是'仇恨'而非'善良'——暗示善良确实是苏隐最重要的东西",
+      "intended_payoff": "scene_023",
+      "actual_payoff": "scene_023",
+      "status": "paid_off"
+    },
+    {
+      "id": "fs_010",
+      "planted_in": "",
+      "description": "墨渊承诺：'欠你的，尽力还'——他将在元章前如何选择？",
+      "intended_payoff": "scene_022",
+      "actual_payoff": "scene_022",
+      "status": "paid_off"
+    },
+    {
+      "id": "fs_011",
+      "planted_in": "",
+      "description": "幽墟深处有什么在呼吸——元章中的天道意志",
+      "intended_payoff": "scene_020",
+      "actual_payoff": "scene_018",
+      "status": "paid_off"
+    }
+  ]
+}

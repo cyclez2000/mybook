@@ -1,0 +1,14 @@
+{
+  "events": [
+    {
+      "scene_id": "scene_001",
+      "event": "顾渊接收L-017巡视任务",
+      "in_story_time": "第1天"
+    },
+    {
+      "scene_id": "scene_004",
+      "event": "巡视完成，发现锁链真相",
+      "in_story_time": "第1天"
+    }
+  ]
+}

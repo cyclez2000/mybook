@@ -1,0 +1,18 @@
+{
+  "issues": [
+    {
+      "id": "issue_001",
+      "scene_id": "scene_026",
+      "issue_type": "pacing",
+      "description": "场景026-032为大纲中规划的过渡场景，当前版本中故事线已通过025/028/029/033自然衔接，无需额外填充",
+      "resolved": false
+    },
+    {
+      "id": "issue_002",
+      "scene_id": "scene_030",
+      "issue_type": "pacing",
+      "description": "同上——场景030-032的内容已被029和033覆盖",
+      "resolved": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "entries": [
+    {
+      "id": "fs_001",
+      "planted_in": "",
+      "description": "锁链纹路每巡视一个副本多一环——封印的不是副本，是顾渊的记忆",
+      "intended_payoff": "副本6",
+      "actual_payoff": "",
+      "status": "planted"
+    },
+    {
+      "id": "fs_002",
+      "planted_in": "",
+      "description": "钥匙裂缝——每窥见真相就碎一分，碎完会怎样？",
+      "intended_payoff": "副本6",
+      "actual_payoff": "",
+      "status": "planted"
+    },
+    {
+      "id": "fs_003",
+      "planted_in": "",
+      "description": "第十七号狱警——顾渊的前任。被淘汰还是自己选择留下？",
+      "intended_payoff": "副本5",
+      "actual_payoff": "",
+      "status": "planted"
+    },
+    {
+      "id": "fs_004",
+      "planted_in": "",
+      "description": "纸条上的环形锁链符号——和手腕纹路一模一样",
+      "intended_payoff": "副本6",
+      "actual_payoff": "",
+      "status": "planted"
+    },
+    {
+      "id": "fs_005",
+      "planted_in": "",
+      "description": "第九层牢房——渊不让靠近的地方",
+      "intended_payoff": "副本6",
+      "actual_payoff": "",
+      "status": "planted"
+    }
+  ]
+}

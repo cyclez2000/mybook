@@ -1,0 +1,94 @@
+{
+  "events": [
+    {
+      "scene_id": "scene_001",
+      "event": "苏隐在太虚宗废墟发现暗金残章",
+      "in_story_time": "某日傍晚"
+    },
+    {
+      "scene_id": "scene_002",
+      "event": "苏隐被追杀，坠入地底暗河",
+      "in_story_time": "同日傍晚"
+    },
+    {
+      "scene_id": "scene_003",
+      "event": "苏隐被青璃救起，得知往生章真相",
+      "in_story_time": "当晚"
+    },
+    {
+      "scene_id": "scene_005",
+      "event": "苏隐使用往生章，看到墨渊背叛的记忆",
+      "in_story_time": "次日凌晨"
+    },
+    {
+      "scene_id": "scene_006",
+      "event": "苏隐与青璃抵达墟市",
+      "in_story_time": "次日中午"
+    },
+    {
+      "scene_id": "scene_007",
+      "event": "苏隐获得回天章情报，从墟市逃脱",
+      "in_story_time": "次日午后"
+    },
+    {
+      "scene_id": "scene_009",
+      "event": "青璃坦白天道崩碎真相",
+      "in_story_time": "次日傍晚"
+    },
+    {
+      "scene_id": "scene_010",
+      "event": "发现墨渊已前往白骨观",
+      "in_story_time": "次日傍晚"
+    },
+    {
+      "scene_id": "scene_011",
+      "event": "苏隐与墨渊在白骨观对峙，达成合作",
+      "in_story_time": "第三日傍晚"
+    },
+    {
+      "scene_id": "scene_012",
+      "event": "苏隐恢复灵根，三人进入幽墟",
+      "in_story_time": "第三日夜"
+    },
+    {
+      "scene_id": "scene_013",
+      "event": "三人进入往生门",
+      "in_story_time": "幽墟深处"
+    },
+    {
+      "scene_id": "scene_015",
+      "event": "墨渊击败先祖碎念",
+      "in_story_time": "幽墟深处"
+    },
+    {
+      "scene_id": "scene_016",
+      "event": "墨渊揭示元章本质",
+      "in_story_time": "幽墟深处"
+    },
+    {
+      "scene_id": "scene_018",
+      "event": "苏隐净化元章，三百年代价归还众生",
+      "in_story_time": "心殿"
+    },
+    {
+      "scene_id": "scene_020",
+      "event": "灰雾散去，残章体系消亡，新天道运转开始",
+      "in_story_time": "三个月后"
+    },
+    {
+      "scene_id": "scene_024",
+      "event": "太虚宗重开，苏隐成为掌门",
+      "in_story_time": "三个月后"
+    },
+    {
+      "scene_id": "scene_033",
+      "event": "青璃第一次短暂化形",
+      "in_story_time": "一百天后"
+    },
+    {
+      "scene_id": "scene_035",
+      "event": "青璃完全恢复人形，全书完结",
+      "in_story_time": "三百六十五天后"
+    }
+  ]
+}

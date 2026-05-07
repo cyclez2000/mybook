@@ -1,0 +1,21 @@
+[project]
+name = "mybook"
+version = "0.2.0"
+description = "AI agent novel writing tool - powered by Sisyphus, no API keys needed"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "click>=8.0.0",
+    "rich>=13.0.0",
+]
+
+[project.scripts]
+mybook = "mybook.main:main"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
