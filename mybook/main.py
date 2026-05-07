@@ -1,10 +1,11 @@
-"""CLI entry point for MyBook — AI agent novel writing tool (Sisyphus-driven).
+"""CLI entry point for MyBook — AI agent novel writing tool.
 
 Workflow:
     mybook init <dir>        Initialize a new novel project
-    mybook task [--phase X]  Generate the current task for Sisyphus
+    mybook task [--phase X]  Generate the current task for your AI agent
     mybook status            Show project progress
     mybook compile           Compile all scenes into manuscript.md
+    mybook card draw         Draw a random instance card (infinite flow)
 """
 
 from __future__ import annotations
@@ -24,12 +25,13 @@ from .bible.manager import BibleManager
 def main():
     """MyBook — AI agent novel writing tool.
 
-    Powered by Sisyphus. No API keys needed.
+    Powered by your AI agent (Claude, GPT, Hermes, Clawbot, etc.).
+    No API keys needed.
     
     Workflow:
       1. mybook init my_novel       # Create project
       2. mybook task                # Generate task for current phase
-      3. [Give task to Sisyphus]    # Sisyphus writes the files
+      3. [Give task to AI agent]    # Agent writes the files
       4. mybook task                # Next task (repeat until done)
       5. mybook compile             # Export manuscript
     """
@@ -56,7 +58,7 @@ def init(project_dir: str):
     click.echo(f"    timeline.json         <- story timeline")
     click.echo(f"    issues.json           <- review issues")
     click.echo(f"")
-    click.echo(f"Next: mybook task  ->  give to Sisyphus  ->  mybook task  ->  ...")
+    click.echo(f"Next: mybook task  ->  give to AI agent  ->  mybook task  ->  ...")
 
 
 @main.command()
@@ -68,10 +70,11 @@ def init(project_dir: str):
 @click.option("--output", "-o", type=click.Path(), default=None,
               help="Write task to file (default: .mybook/task.md)")
 def task(project_dir: str | None, phase: str | None, output: str | None):
-    """Generate the current task for Sisyphus.
+    """Generate the current task for your AI agent.
 
     Detects the current phase from bible state and outputs a
-    structured Markdown task. Give this task to Sisyphus to execute.
+    structured Markdown task. Give this task to your AI agent
+    (Claude, GPT, Hermes, Clawbot, etc.) to execute.
     """
     proj_path = _resolve_project(project_dir)
     gen = TaskGenerator(project_dir=proj_path)

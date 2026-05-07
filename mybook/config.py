@@ -1,6 +1,6 @@
 """Centralized configuration — no API keys needed.
 
-MyBook is powered by Sisyphus, not external LLM APIs.
+MyBook is powered by your AI agent, not external LLM APIs.
 """
 
 import os

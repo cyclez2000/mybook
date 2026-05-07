@@ -1,4 +1,4 @@
-"""Task generator — produces Markdown task files for Sisyphus to execute.
+"""Task generator — produces Markdown task files for your AI agent to execute.
 
 Replaces the LLM-calling scheduler. At each phase, this module:
 1. Checks the current bible state
@@ -6,8 +6,8 @@ Replaces the LLM-calling scheduler. At each phase, this module:
 3. Assembles context (system prompt, bible excerpts, expected outputs)
 4. Outputs a structured Markdown task file
 
-Sisyphus reads the task file, executes the required operations
-using his own file tools, and reports completion.
+Your AI agent reads the task file, executes the required operations
+using file tools, and reports completion.
 """
 
 from __future__ import annotations

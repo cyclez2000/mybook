@@ -1,20 +1,20 @@
 # mybook
 
-**AI 驱动的无限流小说写作工具** —— 由 Sisyphus 代理执行，无需任何 API Key。
+**AI 驱动的无限流小说写作工具** —— 由你的 AI Agent（Claude、GPT、Hermes、Clawbot 等）代理执行，无需任何 API Key。
 
 ## 核心理念
 
 不是"AI 替人写小说"，而是 **"AI 作为工具链中的代理"**：
 
 ```
-你给意图 → mybook 出任务 → Sisyphus 执行 → 文件落地 → 你审阅 → 下一轮
+你给意图 → mybook 出任务 → AI Agent 执行 → 文件落地 → 你审阅 → 下一轮
 ```
 
-Sisyphus 是你的专属 AI Agent，直接操作文件系统。mybook 负责提供结构化的任务上下文——世界观设计、大纲规划、场景写作、伏笔追踪、审校修订——每一步都有明确的**阶段、约束、预期产出**。
+任何能读写文件的 AI Agent 都可以执行 mybook 的任务。mybook 负责提供结构化的任务上下文——世界观设计、大纲规划、场景写作、伏笔追踪、审校修订——每一步都有明确的**阶段、约束、预期产出**。
 
 ## 特性
 
-- **零配置**：不需要 API Key，不需要模型配置。Sisyphus 就是你的 AI
+- **零配置**：不需要 API Key，不需要模型配置。你的 AI Agent 就是执行者
 - **故事圣经**：文件系统的 bible 目录维护世界观、角色卡、大纲、场景、伏笔、时间线的完整一致
 - **五阶段流水线**：世界观构建 → 大纲规划 → 逐场景写作 → 全文审校 → 修订
 - **副本卡池**（无限流专属）：`mybook card draw` 随机抽取副本卡，支持恐怖/科幻/悬疑/历史等多类型
@@ -32,7 +32,7 @@ uv pip install -e .
 # 初始化项目
 mybook init my_novel
 
-# 生成当前阶段任务 → 把 .mybook/task.md 给 Sisyphus
+# 生成当前阶段任务 → 把 .mybook/task.md 给 AI Agent
 mybook task
 
 # 查看进度
@@ -114,7 +114,7 @@ mybook 的解决方案：
 
 传统 AI 写作工具的模式：你的代码 → 调 OpenAI/Anthropic API → 文本回来。
 
-mybook 的模式：你的代码 → 出任务 → 你把任务给我 → 我直接操作文件。
+mybook 的模式：你的代码 → 出任务 → 你把任务给 AI Agent → Agent 直接操作文件。
 
 优势：
 - 不花 API 费用
